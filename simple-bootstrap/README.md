@@ -39,8 +39,7 @@ Execute the following command:
 ```bash
 cd ~
 curl -L -o manager-blueprints.zip https://github.com/cloudify-cosmo/cloudify-manager-blueprints/archive/3.4.zip
-unzip manager-blueprints.zip
-mv cloudify-manager-blueprints-3.4 cloudify-manager-blueprints
+unzip manager-blueprints.zip -d cloudify-manager-blueprints
 ```
 
 That will download the latest manager blueprints and extract them into `./cloudify-manager-blueprints`.
